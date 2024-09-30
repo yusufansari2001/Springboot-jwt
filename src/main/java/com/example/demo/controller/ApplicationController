@@ -1,0 +1,16 @@
+@RestController
+public class ApplicationController {
+
+    // @Autowired
+    // ApplicationService applicationService;
+
+    // @PostMapping("/login")
+    // public ResponseEntity login(@RequestBody ApplicationUser 
+    //     return  this.applicationService.loginService(applicationUser);
+    // }
+
+    @GetMapping("/profile")
+    public String profile(){
+          return  "profile";
+      }
+}
